@@ -7,5 +7,8 @@ def player1(x,y):
 def player2(x,y):
     pass
 
+def main():
+    print("TicTacToe Game :")
 
-    
+if __name__ == "__main__":
+    main()
