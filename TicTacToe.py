@@ -1,14 +1,11 @@
-
-# This is a comment and this is a gooooood comment
-
-def player1(x,y):
-    pass
-
-def player2(x,y):
-    pass
+from CurrentState import CurrentState
+from Manglam import Manglam
+from Sudhanshu import Sudhanshu
 
 def main():
-    print("TicTacToe Game :")
+    gameboard = None
+    print("TicTacToe Game : (Sudhanshu vs Manglam)")
+    CurrentState(gameboard)
 
 if __name__ == "__main__":
     main()
